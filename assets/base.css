@@ -2359,6 +2359,7 @@ sticky-header.header-wrapper {
   width: 100%;
   background: transparent;
   transition: all 500ms ease;
+  border: none;
 }
 
 sticky-header.header-wrapper.scrolled {
