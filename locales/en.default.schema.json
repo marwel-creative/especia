@@ -900,10 +900,10 @@
           "name": "Heading",
           "settings": {
             "heading": {
-              "label": "Heading"
+              "label": "First Line"
             },
             "heading_second": {
-              "label": "Secondary heading"
+              "label": "Second Line"
             }
           }
         },

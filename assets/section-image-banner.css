@@ -377,19 +377,24 @@
   .banner__box {
     padding: 5rem;
     width: auto;
-    max-width: 71rem;
-    min-width: 45rem;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  .banner__box {
-    max-width: 90rem;
+    max-width: 683px;
+    max-height: 384px;
   }
 }
 
 .banner__heading {
   margin-bottom: 0;
+  color: #fff;
+  font-size: 144px;
+  line-height: 192px;
+}
+
+.banner__heading span {
+  display: block;
+}
+
+.banner__heading span:nth-child(2) {
+  text-align: right
 }
 
 .banner__box .banner__heading + * {
