@@ -375,10 +375,10 @@
 
 @media screen and (min-width: 750px) {
   .banner__box {
-    padding: 5rem;
-    width: auto;
+    width: 100%;
     max-width: 683px;
     max-height: 384px;
+    padding: 0;
   }
 }
 
@@ -387,14 +387,16 @@
   color: #fff;
   font-size: 144px;
   line-height: 192px;
+  font-style: italic;
 }
 
 .banner__heading span {
   display: block;
+  text-align: left;
 }
 
 .banner__heading span:nth-child(2) {
-  text-align: right
+  text-align: right;
 }
 
 .banner__box .banner__heading + * {
