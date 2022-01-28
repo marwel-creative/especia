@@ -2286,7 +2286,7 @@ details[open] > .header__icon--menu .icon-hamburger {
   right: 2rem;
 }
 
-sticky-header.header {
+sticky-header {
   position: fixed;
   top: 0;
   left: 0;
