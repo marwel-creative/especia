@@ -6,8 +6,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Natural Beauty",
-            "heading_size": "large"
+            "heading": "Natural",
+            "heading_second": "Beauty"
           }
         }
       },
