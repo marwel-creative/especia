@@ -2351,9 +2351,14 @@ details-disclosure > details {
   }
 }
 
-sticky-header {
-  position: fixed;
+sticky-header.header-wrapper {
+  position: fixed!important;
   top: 0;
   left: 0;
   width: 100%;
+  background: transparent;
+}
+
+sticky-header.header-wrapper.scrolled {
+  background: var(--color-background);
 }
