@@ -901,6 +901,15 @@
           "settings": {
             "heading": {
               "label": "Heading"
+            },
+            "heading_size": {
+              "options__1": {
+                "label": "Medium"
+              },
+              "options__2": {
+                "label": "Large"
+              },
+              "label": "Heading size"
             }
           }
         },
@@ -909,6 +918,15 @@
           "settings": {
             "heading": {
               "label": "Secondary Heading"
+            },
+            "heading_size": {
+              "options__1": {
+                "label": "Medium"
+              },
+              "options__2": {
+                "label": "Large"
+              },
+              "label": "Heading size"
             }
           }
         },
