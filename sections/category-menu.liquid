@@ -6,7 +6,9 @@
                 <div class="category-menu">
                     <a href="{{ block.settings.menu_page }}">
                         <div class="category-menu__image">
-                            {{ block.settings.menu_image | image_url: width: 650 | image_tag }}
+                            {% if block.settings.menu_image %}
+                                {{ block.settings.menu_image | image_url: width: 650 | image_tag }}
+                            {% endif %}
                         </div>
                         <div class="category-menu__title">
                             <h2>{{ block.settings.menu_title | escape }}</h2>
