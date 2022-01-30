@@ -2222,7 +2222,7 @@ details[open] > .header__icon--menu .icon-hamburger {
 }
 
 .header__menu-item {
-  padding: 1.2rem;
+  padding: 1.2rem 25px;
   text-decoration: none;
   color: rgba(var(--color-foreground), 0.75);
 }

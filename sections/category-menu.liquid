@@ -1,0 +1,44 @@
+<div id="category-menu" class="category-menu">
+        <div class="category-menu__wrapper">
+            <div class="category-menu"></div>
+        </div>
+</div>
+
+{% schema %}
+{
+    "name": "Category Menu",
+    "tag": "section",
+    "class": "categpry-menu",
+    "max_blocks": 4,
+    "settings": [
+        {
+        "type": "text",
+        "id": "title",
+        "label": "Title"
+        }
+    ],
+    "blocks": [
+        {
+        "name": "Collection 1 Title",
+        "type": "text",
+        "settings": [
+            {
+            "type": "text",
+            "id": "collection-title-1",
+            "label": "Collection Title 1"
+            }
+        ]
+        }
+    ],
+    "presets": [
+        {
+        "name": "t:sections.category-menu.presets.name",
+        "blocks": [
+            {
+            "type": "text"
+            }
+        ]
+        }
+    ]
+}
+{% endschema %}
