@@ -1,4 +1,6 @@
-<div id="category-menu" class="category-menu">
+{{ 'section-category-menu.css' | asset_url | stylesheet_tag }}
+
+<div id="category-menu" class="category-menu page-width">
     <div class="category-menu__wrapper">
         {% for block in section.blocks %}
             {% case block.type %}
