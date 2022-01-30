@@ -10,22 +10,25 @@
     "tag": "section",
     "class": "categpry-menu",
     "max_blocks": 4,
-    "settings": [
-        {
-        "type": "text",
-        "id": "title",
-        "label": "Title"
-        }
-    ],
     "blocks": [
         {
-        "name": "Collection 1 Title",
-        "type": "text",
+        "name": "Menu Item",
+        "type": "image_picker",
         "settings": [
             {
+            "type": "image_picker",
+            "id": "menu_image",
+            "label": "Menu image"
+            },
+            {
             "type": "text",
-            "id": "collection-title-1",
-            "label": "Collection Title 1"
+            "id": "menu_title",
+            "label": "Menu Title"
+            },
+            {
+            "type": "page",
+            "id": "menu_page",
+            "label": "Menu Page"
             }
         ]
         }
@@ -35,7 +38,7 @@
         "name": "Category Menu",
         "blocks": [
             {
-            "type": "text"
+            "type": "image_picker"
             }
         ]
         }
