@@ -28,6 +28,32 @@
         "show_text_below": true
       }
     },
+    "164351581240b3b18f": {
+      "type": "category-menu",
+      "blocks": {
+        "16435158113f545395-0": {
+          "type": "image_picker",
+          "settings": {
+            "menu_image": "shopify:\/\/shop_images\/Untitled_Session_02_193_1.png",
+            "menu_title": "Best Collection 1",
+            "menu_page": "contact"
+          }
+        },
+        "41cb0926-bb78-4942-a4ff-41d40a1c98c5": {
+          "type": "image_picker",
+          "settings": {
+            "menu_title": "",
+            "menu_page": ""
+          }
+        }
+      },
+      "block_order": [
+        "16435158113f545395-0",
+        "41cb0926-bb78-4942-a4ff-41d40a1c98c5"
+      ],
+      "settings": {
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -47,6 +73,7 @@
   },
   "order": [
     "image_banner",
+    "164351581240b3b18f",
     "featured_products"
   ]
 }
