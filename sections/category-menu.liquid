@@ -5,11 +5,11 @@
         {% for block in section.blocks %}
             {% case block.type %}
                 {% when 'image_picker' %}
-                <div class="category-menu">
+                <div class="category-menu__item">
                     <a href="{{ block.settings.menu_page }}">
                         <div class="category-menu__image">
                             {% if block.settings.menu_image %}
-                                {{ block.settings.menu_image | image_url: width: 650 | image_tag }}
+                                {{ block.settings.menu_image | image_url: width: 800 | image_tag }}
                             {% endif %}
                         </div>
                         <div class="category-menu__title">
