@@ -42,8 +42,9 @@
         "41cb0926-bb78-4942-a4ff-41d40a1c98c5": {
           "type": "image_picker",
           "settings": {
-            "menu_title": "",
-            "menu_page": ""
+            "menu_image": "shopify:\/\/shop_images\/Untitled_Session_02_229_1.png",
+            "menu_title": "Best Collection 2",
+            "menu_page": "contact"
           }
         }
       },
