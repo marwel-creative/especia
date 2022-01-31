@@ -67,13 +67,20 @@
         "c2452f58-fd32-4bb4-b810-3e50734421e7": {
           "type": "text",
           "settings": {
-            "text_item": "-   Beautiful Crafted  -  Comfort and Organic"
+            "text_item": "Beautiful Crafted"
+          }
+        },
+        "7d156963-830e-47a8-b928-7eccbc6a2ea4": {
+          "type": "text",
+          "settings": {
+            "text_item": "Comfort and Organic"
           }
         }
       },
       "block_order": [
         "16436390053a910834-0",
-        "c2452f58-fd32-4bb4-b810-3e50734421e7"
+        "c2452f58-fd32-4bb4-b810-3e50734421e7",
+        "7d156963-830e-47a8-b928-7eccbc6a2ea4"
       ],
       "settings": {
       }
