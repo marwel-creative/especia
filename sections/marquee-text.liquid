@@ -1,0 +1,48 @@
+{{ 'section-marquee-text.css' | asset_url | stylesheet_tag }}
+
+<div id="marquee-text" class="marquee-text">
+    <div class="marquee-text__wrapper">
+        {% for block in section.blocks %}
+            {% case block.type %}
+                {% when 'text' %}
+                <div class="marquee-text__item">
+                    <div class="category-menu__title">
+                        <span>{{ block.settings.text_item | escape }}</span>
+                    </div>
+                </div>
+            {% endcase %}
+        {% endfor %}
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Marquee Text",
+    "tag": "section",
+    "class": "marquee-text",
+    "max_blocks": 5,
+    "blocks": [
+        {
+        "name": "Text Item",
+        "type": "text",
+        "settings": [
+            {
+            "type": "text",
+            "id": "text_item",
+            "label": "Text Item"
+            }
+        ]
+        }
+    ],
+    "presets": [
+        {
+        "name": "Marquee Text",
+        "blocks": [
+            {
+            "type": "text"
+            }
+        ]
+        }
+    ]
+}
+{% endschema %}
