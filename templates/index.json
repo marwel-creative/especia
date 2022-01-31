@@ -55,6 +55,29 @@
       "settings": {
       }
     },
+    "16436390056285bbe3": {
+      "type": "marquee-text",
+      "blocks": {
+        "16436390053a910834-0": {
+          "type": "text",
+          "settings": {
+            "text_item": "Natural Product"
+          }
+        },
+        "c2452f58-fd32-4bb4-b810-3e50734421e7": {
+          "type": "text",
+          "settings": {
+            "text_item": "-   Beautiful Crafted  -  Comfort and Organic"
+          }
+        }
+      },
+      "block_order": [
+        "16436390053a910834-0",
+        "c2452f58-fd32-4bb4-b810-3e50734421e7"
+      ],
+      "settings": {
+      }
+    },
     "featured_products": {
       "type": "featured-collection",
       "settings": {
@@ -75,6 +98,7 @@
   "order": [
     "image_banner",
     "164351581240b3b18f",
+    "16436390056285bbe3",
     "featured_products"
   ]
 }
