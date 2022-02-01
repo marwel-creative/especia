@@ -9,6 +9,7 @@ section .marquee-text {
     border-top: 2px solid #000;
     border-bottom: 2px solid #000;
     font-style: italic;
+    margin: 50px 0;
 }
 
 .marquee-text .marquee-text__wrapper {
