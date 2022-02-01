@@ -43,24 +43,25 @@
       "footer": {
         "type": "footer",
         "blocks": {
+          "92cb9bc5-604a-4ab5-b77a-2ca4c2ba970b": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/especia.png",
+              "image_width": 165,
+              "alignment": ""
+            }
+          },
           "footer-0": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
               "menu": "footer"
             }
-          },
-          "footer-1": {
-            "type": "text",
-            "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
-            }
           }
         },
         "block_order": [
-          "footer-0",
-          "footer-1"
+          "92cb9bc5-604a-4ab5-b77a-2ca4c2ba970b",
+          "footer-0"
         ],
         "settings": {
           "color_scheme": "background-1",
