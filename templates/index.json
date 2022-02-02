@@ -100,12 +100,61 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "1643804520328eb007": {
+      "type": "image-banner",
+      "blocks": {
+        "1643804520ad5e147a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Story Behind",
+            "heading_second": ""
+          }
+        },
+        "1643804520ad5e147a-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi",
+            "text_style": "body"
+          }
+        },
+        "1643804520ad5e147a-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "VIEW MORE",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1643804520ad5e147a-0",
+        "1643804520ad5e147a-1",
+        "1643804520ad5e147a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/slider2_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "image_banner",
     "164351581240b3b18f",
     "16436390056285bbe3",
-    "featured_products"
+    "featured_products",
+    "1643804520328eb007"
   ]
 }
