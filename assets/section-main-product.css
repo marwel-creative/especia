@@ -41,7 +41,7 @@
   }
 
   .product__info-wrapper {
-    padding-left: 5rem;
+    padding-left: 15rem;
   }
 
   .product__media-container .slider-buttons {
@@ -684,11 +684,6 @@ a.product__text {
     display: block;
     width: 100%;
   }
-}
-
-.product__media-list .deferred-media,
-.product__media-list .product__modal-opener {
-  border: 0.1rem solid rgba(var(--color-foreground), 0.04);
 }
 
 .product-media-modal__content > * {

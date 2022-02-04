@@ -2373,3 +2373,26 @@ sticky-header.header-wrapper {
 sticky-header.header-wrapper.scrolled {
   background: #fff;
 }
+
+.element-margin,
+.spaced-section {
+  margin-top: 15rem;
+}
+
+
+#insta-feed {
+  width: 100%;
+  margin-top: 150px;
+}
+
+
+#insta-feed {
+  width: 100%;
+  margin-top: 150px;
+}
+
+#insta-feed h2 {
+  font-size: 34px;
+  font-family: "Playfair Display";
+  font-style: italic;
+}
