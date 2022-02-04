@@ -95,11 +95,32 @@
         "show_vendor": false,
         "show_rating": false
       }
+    },
+    "16439822824a9fcf20": {
+      "type": "apps",
+      "blocks": {
+        "67f1f6b0-1926-4385-af59-cf6108928bff": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "playfair_display_i4",
+            "heading_size": 30,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "67f1f6b0-1926-4385-af59-cf6108928bff"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "1643981968386a1b4e"
+    "1643981968386a1b4e",
+    "16439822824a9fcf20"
   ]
 }
