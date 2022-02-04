@@ -50,20 +50,35 @@
   position: relative;
 }
 
+.card--product img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 800px;
+  width: 100%;
+  object-fit: cover;
+  transform: translateY(-100px);
+}
+
+@media (max-width: 991px) {
+  .card--product img {
+    height: 150%;
+    transform: translateY(0);
+  }
+}
+
 .card--stretch {
   height: 100%;
 }
 
 .card--outline:not(.card--soft) {
-  border: calc(0.1rem / var(--font-body-scale)) solid rgba(var(--color-foreground), 0.04);
 }
 
 .card--light-border {
-  border: 0.1rem solid rgba(var(--color-foreground), 0.04);
 }
 
 .card--light-border:hover {
-  border: 0.1rem solid rgba(var(--color-foreground), 0.3);
   box-shadow: none;
 }
 
@@ -164,6 +179,10 @@
   display: block;
   margin: 0;
   padding-right: 1.2rem;
+  text-decoration: none;
+  text-underline-offset: 0.3rem;
+  text-align: center;
+  font-size: 18px;
 }
 
 .card-information__wrapper {
@@ -187,6 +206,8 @@
   > *:not(.visually-hidden:first-child)
   + *:not(.rating) {
   margin-top: 0.7rem;
+  justify-content: center;
+  font-size: 16px;
 }
 
 .card-information__wrapper .caption {
@@ -301,7 +322,7 @@
   .card-wrapper:hover .media.media--hover-effect > img + img {
     opacity: 1;
     transition: transform var(--duration-long) ease;
-    transform: scale(1.03);
+    transform: scale(1) translateY(-100px);
   }
 
   .card-wrapper:hover .card-information__text {
