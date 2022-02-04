@@ -91,12 +91,12 @@
       "settings": {
         "title": "Latest Collection",
         "collection": "all",
-        "products_to_show": 12,
+        "products_to_show": 8,
         "show_view_all": false,
         "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
