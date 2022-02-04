@@ -70,6 +70,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "image_ratio": "adapt",
@@ -84,7 +85,7 @@
       "type": "featured-collection",
       "settings": {
         "title": "Featured collection",
-        "collection": "",
+        "collection": "latest-collection",
         "products_to_show": 4,
         "show_view_all": false,
         "swipe_on_mobile": false,
