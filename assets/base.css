@@ -892,6 +892,7 @@ summary::-webkit-details-marker {
 
   .title-wrapper-with-link {
     align-items: center;
+    justify-content: center;
   }
 
   .title-wrapper-with-link .title {
@@ -1133,6 +1134,7 @@ summary::-webkit-details-marker {
 
 .media--transparent {
   background-color: transparent;
+  padding-bottom: 450px !important;
 }
 
 .media > *:not(.zoom):not(.deferred-media__poster-button),
