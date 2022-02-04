@@ -55,7 +55,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 800px;
+  height: 800px!important;
   width: 100%;
   object-fit: cover;
   transform: translateY(-100px);
@@ -63,7 +63,7 @@
 
 @media (max-width: 991px) {
   .card--product img {
-    height: 150%;
+    height: 150%!important;
     transform: translateY(0);
   }
 }
