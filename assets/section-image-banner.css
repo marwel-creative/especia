@@ -246,6 +246,17 @@
   z-index: 2;
 }
 
+.banner-options-banner_2 .banner__box {
+  width: 100%;
+  max-width: 100%;
+}
+
+.banner-options-banner_2 .banner__text,
+.banner-options-banner_2 .banner__buttons {
+  max-width: 480px;
+  margin-left: auto;
+}
+
 @media screen and (min-width: 750px) {
   .banner__content {
     padding: 5rem;
