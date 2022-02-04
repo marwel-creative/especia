@@ -1134,7 +1134,10 @@ summary::-webkit-details-marker {
 
 .media--transparent {
   background-color: transparent;
-  padding-bottom: 450px !important;
+}
+
+.card--product .media--transparent {
+  padding-top: 450px!important;
 }
 
 .media > *:not(.zoom):not(.deferred-media__poster-button),

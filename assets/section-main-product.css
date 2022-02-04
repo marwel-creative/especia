@@ -11,6 +11,14 @@
   padding-left: 0;
 }
 
+.product__media-wrapper .media--transparent {
+    padding-top: 100%!important;
+}
+
+.product__media-wrapper .media--transparent img {
+    object-fit: contain;
+}
+
 .product__info-wrapper {
   padding-left: 0;
   padding-bottom: 0;
