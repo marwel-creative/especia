@@ -91,12 +91,12 @@
       "settings": {
         "title": "Latest Collection",
         "collection": "all",
-        "products_to_show": 12,
+        "products_to_show": 8,
         "show_view_all": false,
         "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "show_secondary_image": false,
-        "add_image_padding": true,
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "add_image_padding": false,
         "show_image_outline": true,
         "show_vendor": false,
         "show_rating": false
@@ -150,6 +150,26 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1643976146706200f5": {
+      "type": "apps",
+      "blocks": {
+        "6a25650f-c120-40b2-842c-4383ffabf04d": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "playfair_display_i4",
+            "heading_size": 30,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "6a25650f-c120-40b2-842c-4383ffabf04d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -157,6 +177,7 @@
     "164351581240b3b18f",
     "16436390056285bbe3",
     "featured_products",
-    "1643804520328eb007"
+    "1643804520328eb007",
+    "1643976146706200f5"
   ]
 }
