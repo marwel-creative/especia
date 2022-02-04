@@ -1137,7 +1137,7 @@ summary::-webkit-details-marker {
 }
 
 .card--product .media--transparent {
-  padding-top: 450px!important;
+  padding-bottom: 450px!important;
 }
 
 .media > *:not(.zoom):not(.deferred-media__poster-button),
