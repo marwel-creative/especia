@@ -61,6 +61,12 @@
   transform: translateY(-100px);
 }
 
+@media (min-width: 992px) {
+  .card--product .media--portrait {
+      padding-bottom: 450px !important;
+  }
+}
+
 @media (max-width: 991px) {
   .card--product img {
     height: 150%!important;
