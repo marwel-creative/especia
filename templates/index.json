@@ -91,7 +91,7 @@
       "settings": {
         "title": "Latest Collection",
         "collection": "all",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "show_view_all": false,
         "swipe_on_mobile": true,
         "image_ratio": "portrait",
