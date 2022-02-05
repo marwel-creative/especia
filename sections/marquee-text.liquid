@@ -8,6 +8,12 @@
                 <span class="marquee-text__item">{{ block.settings.text_item | escape }}</span>
             {% endcase %}
         {% endfor %}
+        {% for block in section.blocks %}
+            {% case block.type %}
+                {% when 'text' %}
+                <span class="marquee-text__item">{{ block.settings.text_item | escape }}</span>
+            {% endcase %}
+        {% endfor %}
     </div>
 </div>
 
