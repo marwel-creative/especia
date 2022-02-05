@@ -2397,10 +2397,9 @@ sticky-header.header-wrapper.scrolled {
   font-family: "Playfair Display";
   font-style: italic;
 }
-
-.button,
-.shopify-challenge__button,
-.customer button {
+.product-form__buttons .button,
+.product-form__buttons .shopify-challenge__button,
+.product-form__buttons .customer button {
   cursor: pointer;
   display: inline-flex;
   justify-content: center;
@@ -2427,8 +2426,8 @@ sticky-header.header-wrapper.scrolled {
   letter-spacing: 0.48em !important;
 }
 
-.button:not([disabled]):hover,
-.shopify-challenge__button:hover,
-.customer button:hover {
+.product-form__buttons .button:not([disabled]):hover,
+.product-form__buttons .shopify-challenge__button:hover,
+.product-form__buttons .customer button:hover {
   box-shadow: none;
 }
