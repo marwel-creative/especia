@@ -5,21 +5,7 @@
         {% for block in section.blocks %}
             {% case block.type %}
                 {% when 'text' %}
-                <div class="marquee-text__item">
-                    <div class="category-menu__title">
-                        <span>{{ block.settings.text_item | escape }}</span>
-                    </div>
-                </div>
-            {% endcase %}
-        {% endfor %}
-        {% for block in section.blocks %}
-            {% case block.type %}
-                {% when 'text' %}
-                <div class="marquee-text__item">
-                    <div class="category-menu__title">
-                        <span>{{ block.settings.text_item | escape }}</span>
-                    </div>
-                </div>
+                <span class="marquee-text__item">{{ block.settings.text_item | escape }}</span>
             {% endcase %}
         {% endfor %}
     </div>
