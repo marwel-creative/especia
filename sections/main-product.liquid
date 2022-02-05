@@ -313,9 +313,9 @@
                                 form="{{ product_form_id }}"
                                 {% if option.selected_value == value %}checked{% endif %}
                           >
-                          {% if product.variants[forloop.index0].metafields.color.value and option.value == "Color" %}
+                          {% if product.variants[forloop.index0].metafields.color.value and option.name == "Color" %}
                               <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-color: {{ product.variants[forloop.index0].metafields.color.value }}">
-                                {{ value }}
+                                {{ value }}{{ product.variants.metafields.color.value }}
                               </label>
                           {% else %}
                               <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
