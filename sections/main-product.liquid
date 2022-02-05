@@ -315,7 +315,7 @@
                           >
                           {% if product.variants[forloop.index0].metafields.color.value and option.name == "Color" %}
                               <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" style="background-color: {{ product.variants[forloop.index0].metafields.color.value }}">
-                                {{ value }}{{ product.variants.metafields.color.value }}
+                                {{ value }}{{ product.variants }}
                               </label>
                           {% else %}
                               <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
