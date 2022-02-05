@@ -177,6 +177,10 @@ variant-selects {
 
 fieldset.product-form__input .form__label {
   margin-bottom: 0.2rem;
+  color: #000;
+  font-family: 'Cormorant Garamond';
+  font-size: 18px;
+}
 }
 
 .product-form__input input[type='radio'] {
@@ -301,6 +305,7 @@ a.product__text {
 
 .product__text.caption-with-letter-spacing {
   text-transform: uppercase;
+  display: none;
 }
 
 .product__title {
@@ -314,6 +319,7 @@ a.product__text {
 
 .product__text.caption-with-letter-spacing + .product__title {
   margin-top: 0;
+  font-size: 48px;
 }
 
 .product__accordion .accordion__content {
