@@ -2397,3 +2397,38 @@ sticky-header.header-wrapper.scrolled {
   font-family: "Playfair Display";
   font-style: italic;
 }
+
+.button,
+.shopify-challenge__button,
+.customer button {
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  font: inherit;
+  padding: 22px 70px;
+  text-decoration: none;
+  border: 2px solid #9C8341;
+  border-radius: 0;
+  background-color: transparent;
+  box-shadow: none;
+  color: #000000;
+  min-width: 12rem;
+  min-height: 4.5rem;
+  transition: box-shadow var(--duration-short) ease;
+  -webkit-appearance: none;
+  appearance: none;
+  text-transform: uppercase;
+  font-family: Cormorant Garamond;
+  font-weight: bold;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  letter-spacing: 0.48em !important;
+}
+
+.button:not([disabled]):hover,
+.shopify-challenge__button:hover,
+.customer button:hover {
+  box-shadow: none;
+}
