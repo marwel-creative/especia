@@ -98,7 +98,7 @@
 }
 
 .product-option {
-  font-size: 1.4rem;
+  font-size: 16px;
   word-break: break-all;
   line-height: calc(1 + 0.5 / var(--font-body-scale));
 }
@@ -292,6 +292,11 @@ cart-remove-button .icon-remove {
 
   .cart-item__details {
     width: 35rem;
+  }
+
+  .cart-item__details .product-option.product-price {
+    font-family: Poppins;
+    font-size: 15px;
   }
 
   .cart-item__media {

@@ -187,6 +187,10 @@ html.no-js .no-js-hidden {
     padding: 0 5rem;
   }
 
+  cart-items.page-width {
+    margin-top: 15rem;
+  }
+
   .page-width--narrow {
     padding: 0 9rem;
   }
@@ -466,7 +470,7 @@ blockquote {
 }
 
 .caption-with-letter-spacing {
-  font-size: 1rem;
+  font-size: 1.5rem;
   letter-spacing: 0.13rem;
   line-height: calc(1 + 0.2 / var(--font-body-scale));
   text-transform: uppercase;
