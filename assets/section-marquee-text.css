@@ -10,33 +10,33 @@ section .marquee-text {
     border-bottom: 2px solid #000;
     font-style: italic;
     margin: 50px 0;
-    position: relative;
-    overflow: hidden;
-    --offset: 20vw;
-    --move-initial: calc(-25% + var(--offset));
-    --move-final: calc(-50% + var(--offset));
 }
 
 .marquee-text .marquee-text__wrapper {
-    width: fit-content;
-    display: flex;
-    position: relative;
-    transform: translate3d(var(--move-initial), 0, 0);
-    animation: marquee 5s linear infinite;
-    animation-play-state: running;
+    display: block;
+    width: 200%;
+    position: absolute;
+    overflow: hidden;
+    animation: marquee 12s linear infinite;
 }
 
 .marquee-text .marquee-text__item {
-    font-size: 10vw;
-    padding: 0 2vw;
+    display: inline-block;
+    margin: 0 50px;
+    position: relative;
+}
+
+.marquee-text .marquee-text__item:after {
+    content: "-";
+    display: inline-block;
+    width: auto;
+    color: #000;
+    position: absolute;
+    right: -70px;
+    top: 0;
 }
 
 @keyframes marquee {
-    0% {
-        transform: translate3d(var(--move-initial), 0, 0);
-    }
-
-    100% {
-        transform: translate3d(var(--move-final), 0, 0);
-    }
+    0% { left: 0; }
+    100% { left: -100%; }
 }
