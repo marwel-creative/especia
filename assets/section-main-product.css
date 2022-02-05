@@ -162,6 +162,11 @@
   border: none;
 }
 
+.product-form__input input[type=radio] {
+  position: absolute;
+  opacity: 0;
+}
+
 variant-radios,
 variant-selects {
   display: block;
