@@ -5,9 +5,153 @@
       "disabled": true,
       "settings": {
       }
+    },
+    "16440582131f780b4c": {
+      "type": "image-banner",
+      "blocks": {
+        "164405821342e590e0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Story Behind",
+            "heading_second": ""
+          }
+        },
+        "164405821342e590e0-1": {
+          "type": "text",
+          "settings": {
+            "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "164405821342e590e0-0",
+        "164405821342e590e0-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/slider2_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "banner_type": "banner_2",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1644058302307c30a8": {
+      "type": "image-with-text",
+      "blocks": {
+        "164405830257b520ec-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi<br\/><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "164405830257b520ec-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_26.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "164405849063901e52": {
+      "type": "marquee-text",
+      "blocks": {
+        "2b729466-239b-4a8a-969b-bb5c58e0db78": {
+          "type": "text",
+          "settings": {
+            "text_item": "Natural Product"
+          }
+        },
+        "ebd968d4-1ec2-44d8-9c11-01e28e6b2c59": {
+          "type": "text",
+          "settings": {
+            "text_item": "Beautiful Crafted"
+          }
+        },
+        "af21730b-89ec-4f9e-bb73-40f5c508b905": {
+          "type": "text",
+          "settings": {
+            "text_item": "Comfort and Organic"
+          }
+        }
+      },
+      "block_order": [
+        "2b729466-239b-4a8a-969b-bb5c58e0db78",
+        "ebd968d4-1ec2-44d8-9c11-01e28e6b2c59",
+        "af21730b-89ec-4f9e-bb73-40f5c508b905"
+      ],
+      "settings": {
+      }
+    },
+    "164405840199f7b6ad": {
+      "type": "image-with-text",
+      "blocks": {
+        "164405840145b56a09-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi<br\/><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "164405840145b56a09-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_26.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left"
+      }
+    },
+    "16440589935e888e0d": {
+      "type": "apps",
+      "blocks": {
+        "401bedad-f126-4e65-8fac-d218e247a1ae": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_font": "playfair_display_n4",
+            "heading_size": 30,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "401bedad-f126-4e65-8fac-d218e247a1ae"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16440582131f780b4c",
+    "1644058302307c30a8",
+    "164405849063901e52",
+    "164405840199f7b6ad",
+    "16440589935e888e0d"
   ]
 }
