@@ -74,6 +74,13 @@
   }
 }
 
+@media (max-width: 767px) {
+  .card--product img {
+    height: 180%!important;
+    transform: translateY(-50px);
+  }
+}
+
 .card--stretch {
   height: 100%;
 }
