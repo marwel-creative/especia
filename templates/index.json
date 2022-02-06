@@ -93,11 +93,11 @@
         "collection": "all",
         "products_to_show": 4,
         "show_view_all": false,
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "image_ratio": "portrait",
         "show_secondary_image": true,
         "add_image_padding": false,
-        "show_image_outline": true,
+        "show_image_outline": false,
         "show_vendor": false,
         "show_rating": false
       }
