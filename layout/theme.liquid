@@ -32,7 +32,8 @@
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'header.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'slider.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'swiper-bundle.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'flickity.pkgd.min.js' | asset_url }}" defer="defer"></script>
+
     <script src="{{ 'gsap.min.js' | asset_url }}" defer="defer"></script>
 
 
@@ -115,7 +116,7 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
-    {{ 'swiper-bundle.min.css' | asset_url | stylesheet_tag }}
+    {{ 'flickity.min.css' | asset_url | stylesheet_tag }}
 
     {{ 'cormorant-garamond.css' | asset_url | stylesheet_tag }}
     {{ 'poppins.css' | asset_url | stylesheet_tag }}
