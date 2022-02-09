@@ -2436,9 +2436,3 @@ sticky-header.header-wrapper.scrolled {
 .product-form__buttons .customer button:hover {
   box-shadow: none;
 }
-
-.collection-slider .grid__item {
-  width: 25%;
-  height: 600px;
-  margin-right: 10px;
-}
