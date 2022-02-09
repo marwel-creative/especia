@@ -59,6 +59,10 @@
         <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}">{% render 'icon-caret' %}</button>
       </div>
     {%- endif -%}
+    <div class="slider-navigation">
+      <div class="swiper-button-prev"><span class="icon-chevron-right-light"></span></div>
+      <div class="swiper-button-next"><span class="icon-chevron-right-light"></span></div>
+    </div>
   </slider-component>
 
   {%- if section.settings.show_view_all and more_in_collection -%}
