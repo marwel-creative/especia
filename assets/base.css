@@ -2437,7 +2437,7 @@ sticky-header.header-wrapper.scrolled {
   box-shadow: none;
 }
 
-.carousel-cell {
+.collection-slider .grid__item {
   width: 25%;
   height: 600px;
   margin-right: 10px;
