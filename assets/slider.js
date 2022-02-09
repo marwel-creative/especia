@@ -3,10 +3,10 @@ const SLider = {
         SLider.scroll();
     },
     scroll: () => {
-        const slider = document.querySelector('.slider-post__content');
+        const slider = document.querySelector('.slider-collection');
 
         if (slider) {
-            const swiper = new Swiper('.slider-post__slider', {
+            const swiper = new Swiper('.slider-collection', {
                 loop: false,
                 spaceBetween: 30,
                 resistance: true,
