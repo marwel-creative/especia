@@ -1,5 +1,3 @@
-import Swiper from 'swiper-bundle.min.js';
-
 const SLider = {
     init: () => {
         SLider.scroll();
