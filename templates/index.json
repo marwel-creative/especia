@@ -93,7 +93,7 @@
         "collection": "all",
         "products_to_show": 6,
         "show_view_all": false,
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "image_ratio": "portrait",
         "show_secondary_image": true,
         "add_image_padding": false,
