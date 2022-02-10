@@ -2,6 +2,14 @@
 
 <div id="marquee-text" class="marquee-text">
     <div class="marquee-text__wrapper">
+        <p class="marquee-text__item" style="margin-left: 100%">
+            {% for block in section.blocks %}
+                {% case block.type %}
+                    {% when 'text' %}
+                    <span>{{ block.settings.text_item | escape }}</span>
+                {% endcase %}
+            {% endfor %}
+        </p>
         <p class="marquee-text__item">
             {% for block in section.blocks %}
                 {% case block.type %}
