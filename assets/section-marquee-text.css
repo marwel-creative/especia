@@ -31,14 +31,20 @@ section .marquee-text {
     animation: scroll-left 15s linear infinite;
 }
 
+.marquee-text__item span {
+    position: relative;
+    margin: 0 30px;
+}
+
 .marquee-text .marquee-text__item span:after {
     content: "-";
     display: inline-block;
     width: auto;
     color: #000;
     position: absolute;
-    right: -70px;
-    top: 0;
+    right: -45px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 @keyframes marquee {

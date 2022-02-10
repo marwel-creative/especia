@@ -43,9 +43,6 @@
         alt="{{ media.preview_image.alt | escape }}"
       >
     </div>
-    <a href="{% if media.media_type == 'video' %}{{ media.sources[1].url }}{% else %}{{ media | external_video_url }}{% endif %}" class="product__media-toggle">
-      <span class="visually-hidden">{{ 'products.product.video_exit_message' | t: title: product.title | escape }}</span>
-    </a>
   {%- else -%}
     <div class="product__media media" style="padding-top: {{ 1 | divided_by: media.preview_image.aspect_ratio | times: 100 }}%;">
       <img
@@ -73,7 +70,7 @@
 </noscript>
 
 <modal-opener class="product__modal-opener product__modal-opener--{{ media.media_type }} no-js-hidden" data-modal="#ProductModal-{{ modal_id }}">
-  <span class="product__media-icon motion-reduce" aria-hidden="true">
+  <span class="product__media-icon motion-reduce" aria-hidden="true" style="display: none;">
     {%- liquid
       case media.media_type
       when 'video' or 'external_video'
@@ -108,11 +105,6 @@
       alt="{{ media.preview_image.alt | escape }}"
     >
   </div>
-  <button class="product__media-toggle" type="button" aria-haspopup="dialog" data-media-id="{{ media.id }}">
-    <span class="visually-hidden">
-      {{ 'products.product.media.open_media' | t: index: position }}
-    </span>
-  </button>
 </modal-opener>
 
 {%- if media.media_type != 'image' -%}
