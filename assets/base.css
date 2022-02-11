@@ -867,6 +867,12 @@ summary::-webkit-details-marker {
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 991px) {
+  .title-wrapper-with-link {
+    justify-content: center;
+  }
+}
+
 .title--primary {
   margin: 4rem 0;
 }
@@ -1148,6 +1154,12 @@ summary::-webkit-details-marker {
   background-color: transparent;
 }
 @media (min-width: 768px) {
+  .card--product .media--transparent {
+    padding-bottom: 350px !important;
+  }
+}
+
+@media (min-width: 992px) {
   .card--product .media--transparent {
     padding-bottom: 450px !important;
   }
@@ -2392,6 +2404,12 @@ sticky-header.header-wrapper.scrolled {
   margin-top: 15rem;
 }
 
+@media screen and (max-width: 991px) {
+  .element-margin, .spaced-section {
+    margin-top: 10rem;
+  }
+}
+
 
 #insta-feed {
   width: 100%;
@@ -2409,6 +2427,15 @@ sticky-header.header-wrapper.scrolled {
   font-family: "Playfair Display";
   font-style: italic;
 }
+
+@media screen and (max-width: 991px) {
+  #insta-feed .instafeed-container, .instafeed-shopify .instafeed-container {
+    width: 50%!important;
+    padding-top: 50%!important;
+  }
+}
+
+
 .product-form__buttons .button,
 .product-form__buttons .shopify-challenge__button,
 .product-form__buttons .customer button {
@@ -2443,3 +2470,4 @@ sticky-header.header-wrapper.scrolled {
 .product-form__buttons .customer button:hover {
   box-shadow: none;
 }
+

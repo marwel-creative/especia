@@ -47,6 +47,18 @@ section .marquee-text {
     transform: translateY(-50%);
 }
 
+@media screen and (max-width: 991px) {
+    section .marquee-text {
+        font-size: 30px;
+        height: 65px;
+        margin: 40px 0;
+    }
+
+    .marquee-text .marquee-text__wrapper {
+        height: 50px;
+    }
+}
+
 @keyframes marquee {
     0% { left: 0; }
     100% { left: -100%; }
@@ -71,3 +83,4 @@ section .marquee-text {
     -webkit-transform: translateX(-100%);
     transform: translateX(-100%); 
 }
+

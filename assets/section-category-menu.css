@@ -2,6 +2,12 @@
     margin-bottom: 100px
 }
 
+@media screen and (max-width: 991px) {
+    .category-menu {
+        margin-bottom: 50px;
+    }
+}
+
 .category-menu .category-menu__wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -75,5 +81,11 @@
         padding: 0 18px;
         position: relative;
         margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .category-menu .category-menu__wrapper {
+        margin: 0;
     }
 }
