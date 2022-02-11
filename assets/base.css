@@ -1043,9 +1043,6 @@ summary::-webkit-details-marker {
     width: calc(33.33% - 1rem * 2 / 3);
   }
 
-  .slider--desktop.grid--3-col-tablet .grid__item {
-    width: calc(25%);;
-  }
 
   .grid--2-col-tablet .grid__item {
     width: calc(50% - 1rem / 2);
@@ -1073,6 +1070,12 @@ summary::-webkit-details-marker {
 .grid__item--full-width {
   flex: 0 0 100%;
   max-width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+  .slider--desktop.grid--3-col-tablet .grid__item {
+    width: calc(25%);
+  }
 }
 
 @media screen and (max-width: 749px) {
@@ -1924,7 +1927,7 @@ input[type='checkbox'] {
 
   .header--middle-left {
     grid-template-areas: 'heading navigation icons';
-    grid-template-columns: 1fr 1fr 0fr;
+    grid-template-columns: 0.5fr 1fr 0fr;
     column-gap: 2rem;
   }
 
