@@ -2402,7 +2402,7 @@ sticky-header.header-wrapper {
   z-index: 99999;
 }
 
-sticky-header.header-wrapper.scrolled {
+sticky-header.header-wrapper.scrolled, .overflow-hidden-tablet sticky-header.header-wrapper{
   background: #fff;
 }
 

@@ -13,6 +13,15 @@
   padding-bottom: 2rem;
 }
 
+@media screen and (max-width: 767px) {
+  .collection-hero__inner {
+    margin-top: 5rem;
+  }
+  .collection-hero__title {
+    text-align: center;
+} 
+}
+
 @media screen and (min-width: 750px) {
   .collection-hero.collection-hero--with-image {
     padding: calc(4rem + var(--page-width-margin)) 0
