@@ -434,8 +434,8 @@
     line-height: 1.3;
   }
 
-  .banner__heading span {
-    text-align: center;
+  .banner__heading span:nth-child(2) {
+    text-align: right;
   }
   
   .banner__box .banner__heading + * {
@@ -465,6 +465,9 @@
     font-size: 13vw;
     text-align: center;
   } 
+  .banner__heading span {
+    text-align: center;
+  }
 }
 
 .banner__buttons {

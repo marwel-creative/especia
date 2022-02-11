@@ -1994,6 +1994,12 @@ input[type='checkbox'] {
   width: 100%;
 }
 
+@media screen and (max-width: 767px) {
+  .header__heading-logo {
+    max-width: 110px;
+  }
+}
+
 @media screen and (max-width: 989px) {
   .header__heading,
   .header__heading-link {
@@ -2393,6 +2399,7 @@ sticky-header.header-wrapper {
   background: transparent;
   transition: all 500ms ease;
   border: none;
+  z-index: 99999;
 }
 
 sticky-header.header-wrapper.scrolled {
