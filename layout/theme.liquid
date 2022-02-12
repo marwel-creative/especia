@@ -35,6 +35,18 @@
     {% if template contains 'product' %}
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" defer=”defer”></script>
       <script type="text/javascript" src="{{ 'jquery.zoom.min.js' | asset_url }}" defer=”defer”>
+
+      <script>
+        $(document).ready(function(){
+          $('.image-zoom')
+          .wrap('<span style="display:inline-block"></span>')
+          .css('display', 'block')
+          .parent()
+          .zoom({
+            url: $(this).find('img').attr('data-zoom')
+          });
+        });
+      </script>
     {% endif %}
 
     {{ content_for_header }}{% include 'globo.swatch.script' %}
@@ -116,7 +128,6 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
-    {{ 'flickity.min.css' | asset_url | stylesheet_tag }}
 
     {{ 'cormorant-garamond.css' | asset_url | stylesheet_tag }}
     {{ 'poppins.css' | asset_url | stylesheet_tag }}

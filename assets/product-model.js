@@ -56,13 +56,3 @@ window.ProductModel = {
 window.addEventListener('DOMContentLoaded', () => {
   if (window.ProductModel) window.ProductModel.loadShopifyXR();
 });
-
-$(document).ready(function(){
-  $('.image-zoom')
-  .wrap('<span style="display:inline-block"></span>')
-  .css('display', 'block')
-  .parent()
-  .zoom({
-    url: $(this).find('img').attr('data-zoom')
-  });
-});
