@@ -186,18 +186,13 @@
 {%- endif -%}
 
 <script>
-  window.addEventListener('DOMContentLoaded', function() {
-      (function($) {
+window.addEventListener('DOMContentLoaded', function() {
+    (function($) {
       $(document).ready(function(){
-        $('.shopifyexplorer-zoom')
-          .wrap('<span style="display:inline-block"></span>')
-          .css('display', 'block')
-          .parent()
-          .zoom({
+        $('.shopifyexplorer-zoom').wrap('<span style="display:inline-block"></span>').css('display', 'block').parent().zoom({
             url: $(this).find('img').attr('data-zoom')
-          });
         });
-      };
+      });
     })(jQuery);
-  });
+});
 </script>
