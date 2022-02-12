@@ -2504,3 +2504,9 @@ sticky-header.header-wrapper.scrolled, .overflow-hidden-tablet sticky-header.hea
   right:0;
   background:url({{ 'icon.png' | asset_url }});
 }
+
+img.image-zoom {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}

@@ -44,10 +44,6 @@
     z-index: 2;
   }
 
-  .product__info-wrapper {
-    padding-left: 15rem;
-  }
-
   .product__media-container .slider-buttons {
     display: none;
   }
@@ -75,6 +71,10 @@
   .product--small:not(.product--no-media) .product__media-wrapper {
     max-width: 45%;
     width: calc(45% - 1rem / 2);
+  }
+
+  .product__info-wrapper {
+    padding-left: 15rem;
   }
 }
 
