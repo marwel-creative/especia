@@ -2478,3 +2478,29 @@ sticky-header.header-wrapper.scrolled, .overflow-hidden-tablet sticky-header.hea
   box-shadow: none;
 }
 
+@media screen and (max-width: 767px) {
+  .product-form__buttons .button, 
+  .product-form__buttons .shopify-challenge__button, 
+  .product-form__buttons .customer button {
+    padding: 15px 45px;
+    font-size: 16px!important;
+  }
+}
+
+
+.zoom {
+  display:inline-block;
+  position: relative;
+}
+        
+/* magnifying glass icon */
+.zoom:after {
+  content:'';
+  display:block; 
+  width:33px;
+  height:33px; 
+  position:absolute; 
+  top:0;
+  right:0;
+  background:url({{ 'icon.png' | asset_url }});
+}
