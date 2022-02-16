@@ -885,9 +885,11 @@ customElements.define('variant-radios', VariantRadios);
 window.addEventListener('DOMContentLoaded', function() {
   (function($) {
       $(document).ready(function(){
-        $('.image-zoom').wrap('<span style="display:inline-block"></span>').css('display', 'block').parent().zoom({
+        if ($('.image-zoom').length) {
+          $('.image-zoom').wrap('<span style="display:inline-block"></span>').css('display', 'block').parent().zoom({
             url: $(this).find('img').attr('data-zoom')
-        });
+          });
+        }
       });
 	})(jQuery);
 });
