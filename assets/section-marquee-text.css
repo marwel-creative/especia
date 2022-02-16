@@ -24,3 +24,10 @@ section .marquee-text {
     line-height: 1;
     margin-top: 20px;
 }
+
+@media screen (max-width: 767px) {
+    section .marquee-text {
+        font-size: 25px;
+        height: 75px;
+    }
+}
