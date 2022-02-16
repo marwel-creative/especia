@@ -21,4 +21,6 @@ section .marquee-text {
 
 .marquee-text .marquee-text__item {
     white-space: nowrap;
+    line-height: 1;
+    margin-top: 20px;
 }
