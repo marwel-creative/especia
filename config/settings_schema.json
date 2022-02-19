@@ -359,10 +359,9 @@
         "default": "971000000000"
       },
 	  {
-        "type": "text",
+        "type": "image_picker",
         "id": "whatsapp_icon_image",
-        "label": "Whatsapp Image Link",
-        "default": "https://cdn.shopify.com/s/files/1/0102/3560/9184/files/whastapp-new-icon.png"
+        "label": "Whatsapp Image"
       },
       {
         "type": "text",

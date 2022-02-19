@@ -312,9 +312,9 @@
   </div>
 </footer>
 
-<div class="icon-bar">
-  <a href="https://api.whatsapp.com/send?phone={{settings.whatsapp_icon_number}}&text={{canonical_url}}{{settings.whatsapp_icon_text}}">
-    <img src="{{settings.whatsapp_icon_image}}" width="150">
+<div class="icon-bar-whatsapp">
+  <a href="https://api.whatsapp.com/send?phone={{settings.whatsapp_icon_number}}&text={{canonical_url}}{{settings.whatsapp_icon_text}}" target="_blank">
+    <img src="{{ settings.whatsapp_icon_image | img_url: '400x' }}">
   </a>
 </div>
 
