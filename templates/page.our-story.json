@@ -125,6 +125,22 @@
         "mobile_content_alignment": "left"
       }
     },
+    "16452390348169bb71": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Latest Product",
+        "collection": "latest-collection",
+        "products_to_show": 4,
+        "show_view_all": false,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false,
+        "show_rating": false
+      }
+    },
     "16440589935e888e0d": {
       "type": "apps",
       "blocks": {
@@ -152,6 +168,7 @@
     "1644058302307c30a8",
     "164405849063901e52",
     "164405840199f7b6ad",
+    "16452390348169bb71",
     "16440589935e888e0d"
   ]
 }
