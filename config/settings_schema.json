@@ -358,7 +358,7 @@
         "label": "Whatsapp Number",
         "default": "971000000000"
       },
-	  {
+      {
         "type": "image_picker",
         "id": "whatsapp_icon_image",
         "label": "Whatsapp Image"
@@ -370,5 +370,5 @@
         "default": "Hi, I am interested in this."
       }
     ]
-  }  
+  }
 ]
