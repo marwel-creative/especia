@@ -2517,8 +2517,23 @@ img.image-zoom {
     bottom: 30px;
     right: 30px;
     z-index: 99;
+    width: 80px;
+    height: 80px;
 }
 
 .icon-bar-whatsapp a {
   display: block;
+}
+
+.icon-bar-whatsapp img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 991px) {
+  .icon-bar-whatsapp {
+    width: 60px;
+    height: 60px;
+  }
 }
