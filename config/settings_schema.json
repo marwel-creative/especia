@@ -348,5 +348,28 @@
         "default": true
       }
     ]
-  }
+  },
+  {
+    "name": "WhatsApp",
+    "settings": [
+      {
+        "type": "text",
+        "id": "whatsapp_icon_number",
+        "label": "Whatsapp Number",
+        "default": "971000000000"
+      },
+	  {
+        "type": "text",
+        "id": "whatsapp_icon_image",
+        "label": "Whatsapp Image Link",
+        "default": "https://cdn.shopify.com/s/files/1/0102/3560/9184/files/whastapp-new-icon.png"
+      },
+      {
+        "type": "text",
+        "id": "whatsapp_icon_text",
+        "label": "Whatsapp Text",
+        "default": "Hi, I am interested in this."
+      }
+    ]
+  }  
 ]

@@ -312,6 +312,12 @@
   </div>
 </footer>
 
+<div class="icon-bar">
+  <a href="https://api.whatsapp.com/send?phone={{settings.whatsapp_icon_number}}&text={{canonical_url}}{{settings.whatsapp_icon_text}}">
+    <img src="{{settings.whatsapp_icon_image}}" width="150">
+  </a>
+</div>
+
 {% javascript %}
   class LocalizationForm extends HTMLElement {
     constructor() {
