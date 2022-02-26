@@ -260,6 +260,7 @@
                   {% if configs.isOptionname %}
                   <label for="pa_{{ option | handleize }}" class="name-option">{{ option }}</label>
               	  {% endif %}
+                  <div class="dropdown-selector">
                   <ul class="ul-swatches-list value ul-globo-dropdown-option">
                     {% for variant in product.variants %}
                     {% assign value_available = variant.options[option_index] %}
@@ -286,6 +287,7 @@
                     {% endunless %}
                     {% endfor %}
                   </ul>
+                  </div>
                 {% endif %}
             </div>
           	{% endif %}

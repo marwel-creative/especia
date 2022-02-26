@@ -219,6 +219,7 @@
       </ul>
       {% elsif displayStyle == 4 %}
       <label for="pa_{{ option | handleize }}" class="name-option">{{ option }}</label>
+      <div class="dropdown-selector">
       <ul class="value ul-globo-dropdown-option">
         {% if configs.enableMandatory == true %}
         <li class="swatches-options select-option--dropdown select-option select-globo-init">
@@ -254,6 +255,7 @@
         {% endunless %}
         {% endfor %}
       </ul>
+      </div>
       {% endif %}
       {% if configs.enableMandatory %}<div class="errorOptions" data-nameinput="option-globo-{{ option_index }}"></div>{% endif %}
     </div>
