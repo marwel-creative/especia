@@ -63,11 +63,10 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
-      "disabled": true,
       "settings": {
-        "heading": "You may also like",
+        "heading": "Featured collection",
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "add_image_padding": false,
         "show_image_outline": false,
         "show_vendor": false,
@@ -76,6 +75,7 @@
     },
     "1643981968386a1b4e": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "collection": "latest-collection",
