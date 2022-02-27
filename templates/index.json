@@ -36,7 +36,7 @@
           "type": "image_picker",
           "settings": {
             "menu_image": "shopify:\/\/shop_images\/fococlipping-20220205-20332.png",
-            "menu_title": "Best Collection 1",
+            "menu_title": "Latest Product",
             "menu_page": "contact"
           }
         },
@@ -44,7 +44,7 @@
           "type": "image_picker",
           "settings": {
             "menu_image": "shopify:\/\/shop_images\/fococlipping-20220205-203436.png",
-            "menu_title": "Best Collection 2",
+            "menu_title": "Summer Collection",
             "menu_page": "contact"
           }
         }
@@ -92,7 +92,6 @@
         "title": "Latest Collection",
         "collection": "all",
         "products_to_show": 6,
-        "show_slider_on_desktop": false,
         "show_view_all": false,
         "swipe_on_mobile": true,
         "image_ratio": "portrait",
